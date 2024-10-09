@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Trust Bank</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./assets/logo.png"
+          alt="logo"
+          height="52.5px;
+        "
+        />
+      </div>
+      
+      <div class="login">
+        <form action="" id="login">
+          <p>Log in to get started</p>
+          <input type="text" name="username" placeholder="USER" />
+          <input
+            type="password"
+            name="password"
+            placeholder="PIN"
+            maxlength="4"
+          />
+          <button type="submit" class="login-btn">Log in &rarr;</button>
+        </form>
+      </div>
+      <button onclick="window.location.href='/'">Back to main page &larr;</button>
+      <button class="logout-btn">Log out &larr;</button>
+    </header>
+
+    <main>
+      <div class="hello">Welcome back, Ali!</div>
+      <div class="balance">
+        <div class="balance_label">
+          <p>Current balance</p>
+          <p>As of <span class="date"></span></p>
+        </div>
+
+        <p class="balance_value">00,00 €</p>
+      </div>
+
+      <div class="movement-operations">
+        <div class="operation">
+          <!-- transfer -->
+          <div class="operation-card transfer">
+            <h2>Transfer money</h2>
+            <form action="" id="transfer">
+              <div class="inputs">
+                <div class="to">
+                  <input type="text" name="to" id="to" placeholder="USER" />
+                  <br />
+                  <label for="to">Transfer to</label>
+                </div>
+                <div>
+                  <input
+                    type="number"
+                    name="amount"
+                    id="amount"
+                    min="100"
+                    placeholder="100"
+                  />
+                  <br />
+                  <label for="amount">Amount</label>
+                </div>
+                <div class="send">
+                  <button type="submit" class="transfer-btn">&rarr;</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- request -->
+          <div class="operation-card request">
+            <h2>Request loan</h2>
+            <form action="" id="request">
+              <div class="inputs">
+                <div>
+                  <input
+                    type="number"
+                    name="loan-amount"
+                    id="request-amount"
+                    min="100"
+                    placeholder="100"
+                  />
+                  <br />
+                  <label for="loan-amount">Amount</label>
+                </div>
+                <div class="get">
+                  <button class="loan-btn">&rarr;</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- close -->
+          <div class="operation-card close">
+            <h2>Close account</h2>
+            <form action="" id="close">
+              <div class="inputs">
+                <div class="to">
+                  <input
+                    type="text"
+                    name="confirm-user"
+                    id=""
+                    placeholder="USER"
+                  />
+                  <br />
+                  <label for="confirm-user">Close account</label>
+                </div>
+                <div>
+                  <input
+                    type="password"
+                    name="confirm-pin"
+                    id=""
+                    maxlength="4"
+                    placeholder="PIN"
+                  />
+                  <br />
+                  <label for="confirm-pin">Confirm PIN</label>
+                </div>
+                <div>
+                  <button class="confirm-btn">&rarr;</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="movement"></div>
+      </div>
+
+      <div class="summary">
+        <div class="in-out">
+          <div class="in">IN <span>00,00 €</span></div>
+          <div class="out">OUT <span>00,00 €</span></div>
+        </div>
+        <div class="interest-sort">
+          <div class="interest">INTEREST <span>00,00 €</span></div>
+        </div>
+        <div class="sort">
+          <button class="sort-btn">
+            &downarrow; <br />
+            SORT
+          </button>
+        </div>
+
+        <div class="top-timer">
+          <div class="timer">You will be logged out in <span id="timer"></span></div>
+          <div class="top"></div>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Error</h1>
+      <div class="icon">
+        <div class="cross-icon"></div>
+      </div>
+      <p class="error-message"></p>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>

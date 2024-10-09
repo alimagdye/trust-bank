@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <title>Trust Bank</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="mainContainer" id="top2">
+      <header>
+        <a href="#top">
+          <img
+            src="./img/bank-logo.png"
+            alt="bank-logo"
+            class="logo"
+            width="45"
+            height="45"
+          />
+          <h1>Trust Bank</h1>
+        </a>
+        <a class="menuBtn">
+          <span class="lines"></span>
+        </a>
+        <nav class="mainMenu">
+          <ul>
+            <li>
+              <a href="#features">Features</a>
+            </li>
+            <li>
+              <a href="#operations">Operations</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+
+            <li>
+              <a href="./login/index.html" class="suBtn">Sign in/up</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <header id="top">
+      <nav>
+        <a href="#top">
+          <img
+            src="./img/bank-logo.png"
+            alt="bank-logo"
+            class="logo"
+            width="45"
+            height="45"
+          />
+          <h1>Trust Bank</h1>
+        </a>
+        <ul>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#operations">Operations</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <button onclick="window.location.href='./login/index.html'">Sign in/up</button>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="left">
+          <h1>
+            When <span><p>banking</p></span> meets
+            <span><p>minimalist</p></span>
+          </h1>
+          <h4>A simpler banking experience for a simpler life.</h4>
+          <button>Learn more &DownArrow;</button>
+        </div>
+        <div class="right">
+          <img src="./img/hero.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <hr />
+      <section id="features">
+        <h2>Features</h2>
+        <h4>Everything you need in a modern bank and more.</h4>
+        <div class="feature">
+          <div class="left">
+            <img
+              src="./img/digital-lazy.jpg"
+              data-src="./img/digital.jpg"
+              alt="Computer"
+              class="features__img lazy-img"
+            />
+          </div>
+          <div class="right">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <h3>100% digital bank</h3>
+            <p>
+              In trust bank, customers can access their accounts from anywhere.
+              We operate with high security and integrity.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="left">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h3>Watch your money grow</h3>
+            <p>
+              Your money grows fast with our powerful online banking. grows
+              rated 1.5% daily.
+            </p>
+          </div>
+          <div class="right">
+            <img
+              src="./img/grow-lazy.jpg"
+              data-src="./img/grow.jpg"
+              alt="plant"
+              class="features__img lazy-img"
+            />
+          </div>
+        </div>
+        <div class="feature">
+          <div class="left">
+            <img
+              src="./img/card-lazy.jpg"
+              data-src="./img/card.jpg"
+              alt="Computer"
+              class="features__img lazy-img"
+            />
+          </div>
+          <div class="right">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <h3>Free debit card included</h3>
+            <p>
+              Debit cards are a great option for your online banking. With debit
+              cards, you can spend your money anywhere.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <section id="operations">
+        <h2>Operations</h2>
+        <h4>Everything as simple as possible, but no simpler.</h4>
+        <div class="operations">
+          <button data-tab="1" class="active-tab">
+            01&nbsp;Instant&nbsp;Transfers
+          </button>
+          <button data-tab="2" class="">02&nbsp;Instant&nbsp;Loans</button>
+          <button data-tab="3" class="">03&nbsp;Instant&nbsp;closing</button>
+        </div>
+        <div class="operation-content">
+          <div class="content active-content" data-content="1">
+            <div class="heading">
+              <div class="operations__icon operations__icon--1">
+                <svg>
+                  <use xlink:href="img/icons.svg#icon-upload"></use>
+                </svg>
+              </div>
+              <h5>Transfer money to anyone, instantly! No fees, no BS.</h5>
+            </div>
+            <p>
+              Tranfser money to anyone, instantly! No fees, no BS. You can
+              transfer money to anyone, instantly! No fees, no BS.
+            </p>
+          </div>
+          <div class="content" data-content="2">
+            <div class="heading">
+              <div class="operations__icon operations__icon--2">
+                <svg>
+                  <use xlink:href="img/icons.svg#icon-home"></use>
+                </svg>
+              </div>
+              <h5>
+                Buy a home or make your dreams come true, with instant loans.
+              </h5>
+            </div>
+            <p>
+              instant loans you can buy a home or make your dreams come true,
+              with instant loans. Best instant loans.
+            </p>
+          </div>
+          <div class="content" data-content="3">
+            <div class="heading">
+              <div class="operations__icon operations__icon--3">
+                <svg>
+                  <use xlink:href="img/icons.svg#icon-user-x"></use>
+                </svg>
+              </div>
+              <h5>
+                No longer need your account? No problem! Close it instantly.
+              </h5>
+            </div>
+            <p>
+              close it instantly. you can close it instantly. thats because you
+              can close it instantly. Close it instantly.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <section id="testimonials">
+        <h2>Not Sure Yet?</h2>
+        <h4>Millions of Trusts are already making their lifes Easier.</h4>
+        <div class="buttons">
+          <button>&larr;</button>
+          <button>&rarr;</button>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <h5>Best financial decision ever!</h5>
+            <blockquote>
+              I'm happy with the decision. this is the best financial decision
+              ever!. I think this bank helps me alot. and I am happy with it. so
+              I have to say. I'm happy with the decision. this is the best
+              financial decision ever!. I think this bank helps me alot. and I
+              am happy with it. so I have to say.
+            </blockquote>
+            <address>
+              <div class="left">
+                <img src="img/user-1.jpg" alt="user" />
+              </div>
+              <div class="right">
+                <h6>John Smith</h6>
+                <p>San Francisco, USA</p>
+              </div>
+            </address>
+          </div>
+
+          <div class="slide">
+            <h5>The last step to becoming a complete minimalist</h5>
+            <blockquote>
+              I'm happy with the decision. this is the best financial decision
+              ever!. I think this bank helps me alot. and I am happy with it. so
+              I have to say. I'm happy with the decision. this is the best
+              financial decision ever!. I think this bank helps me alot. and I
+              am happy with it. so I have to say.
+            </blockquote>
+            <address>
+              <div class="left">
+                <img src="img/user-2.jpg" alt="user" />
+              </div>
+              <div class="right">
+                <h6>Isabella Green</h6>
+                <p>London, UK</p>
+              </div>
+            </address>
+          </div>
+
+          <div class="slide">
+            <h5>Finally free from old-school banks</h5>
+            <blockquote>
+              I'm happy with the decision. this is the best financial decision
+              ever!. I think this bank helps me alot. and I am happy with it. so
+              I have to say. I'm happy with the decision. this is the best
+              financial decision ever!. I think this bank helps me alot. and I
+              am happy with it. so I have to say.
+            </blockquote>
+            <address>
+              <div class="left">
+                <img src="img/user-3.jpg" alt="user" />
+              </div>
+              <div class="right">
+                <h6>Bruno Fredriko</h6>
+                <p>Lisbon, Portugal</p>
+              </div>
+            </address>
+          </div>
+        </div>
+        <div class="dots"></div>
+      </section>
+
+      <section>
+        <div>
+          <h2>
+            The best day to join Trust Bank was one year ago. The second best
+            day is today!
+          </h2>
+          <div class="center">
+            <button onclick="window.location.href='./login/index.html'">Open your free account today!</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div>
+        <a href="#top">
+          <img src="./img/icon.png" alt="logo" width="45" height="45" />
+        </a>
+      </div>
+      <div>
+        <p>&copy; 2024 Trust Bank. All Rights Reserved.</p>
+        <p>
+          Made by
+          <a
+            href="https://github.com/alimagdye"
+            target="_blank"
+            title="Ali Magdy GitHub"
+            >Ali Magdy</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
