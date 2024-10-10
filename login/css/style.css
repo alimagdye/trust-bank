@@ -214,6 +214,7 @@ main .movement-operations {
   padding: 1rem;
   border-bottom: 2px solid #f3f3f3;
   overflow-x: scroll;
+  overflow-y: hidden; /* Prevent vertical scrolling */
 }
 
 .cell .type {
