@@ -31,7 +31,7 @@ password: 5555
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/trust-bank.git
+   git clone https://github.com/alimagdye/trust-bank.git
    ```
 2. Navigate to the project folder:
    ```sh
