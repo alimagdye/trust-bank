@@ -37,7 +37,7 @@ password: 5555
    ```sh
    cd trust-bank
    ```
-3. Open `index.html` in a browser:
+3. Open `index.html` in a live-server:
    ```sh
    open index.html
    ```
