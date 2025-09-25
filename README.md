@@ -49,4 +49,4 @@ password: 5555
 - Add **encryption** for better security.
 
 ## Contributing
-Contributions are welcome! If you want to improve this project, fork the repository and submit a pull request.
+Contributions are welcome! If you want to improve this project, fork the repository and submit a pull request
