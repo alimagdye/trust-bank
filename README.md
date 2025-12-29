@@ -1,7 +1,7 @@
 # trust-bank
 
 ## Overview
-**Trust Bank** is a front-end web application that simulates an online banking system. Users can log in to their accounts, view their balances, and perform transactions. The application is built using **HTML, CSS, and JavaScript**, with data stored in the browser (local storage).
+**Trust Bank** is a front-end web application that simulates an online banking system. Users can log in to their accounts, view their balances, and perform transactions. The application is built using **HTML, CSS, and JavaScript**, with data stored in the browser (simulating backend).
 
 ## Features
 - **User Authentication**: Users can log in securely.
