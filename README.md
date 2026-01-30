@@ -47,6 +47,3 @@ password: 5555
 ## Future Enhancements
 - Implement a backend using **Node.js & Express** for real data storage.
 - Add **encryption** for better security.
-
-## Contributing
-Contributions are welcome! If you want to improve this project, fork the repository and submit a pull request.
